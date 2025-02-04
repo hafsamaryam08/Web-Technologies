@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-![Web App Development](https://img.shields.io/badge/Web%20App%20Development-Course-Green?labelColor=Gray&style=flat)
+![Web Technologies](https://img.shields.io/badge/Web%20App%20Development-Course-Green?labelColor=Gray&style=flat)
 
 
 # Web Technologies Course
