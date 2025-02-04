@@ -1,0 +1,140 @@
+.external-style {
+    color: purple;
+    font-style: italic;
+}
+
+.box-model {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    background-color: lightblue;
+}
+
+/* Element Selector */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#header {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Pseudo-class (:hover for links) */
+a:hover {
+    color: red;
+}
+
+/* nth-child pseudo-class */
+ul li:nth-child(2) {
+    background-color: lightblue;
+}
+
+/* Container with relative positioning */
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+/* Box with absolute positioning */
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Media query for screens with a max width of 600px */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* Flexbox Layout Styles */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.flex-item {
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Grid Layout Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: teal;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Button with transition */
+.transition-btn {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.transition-btn:hover {
+    background-color: darkgreen; 
+}
+
+/* Define animation keyframes */
+@keyframes changeColor {
+    0% { background-color: lightblue; }
+    50% { background-color: lightcoral; }
+    100% { background-color: lightblue; }
+}
+
+/* Button with animation */
+.animation-btn {
+    background-color: lightblue;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    animation: changeColor 2s infinite;
+}
+

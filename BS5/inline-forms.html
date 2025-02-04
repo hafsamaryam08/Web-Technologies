@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS5 Inline Forms</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="container mt-3">
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" name="remember" id="remember">
+                    <label class="form-check-label" for="remember">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+</body>
+</html> -->
+
+
+<!-- bs5 form -->
+<form>
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        <label for="name">Your Name</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        <label for="email">Your Email</label>
+    </div>
+
+    <fieldset class="mb-3">
+        <legend class="col-form-label pt-0">Gender</legend>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+    </fieldset>
+
+    <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="terms" required>
+        <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+<!-- inline form -->
+<form class="form-inline">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        <label for="name">Your Name</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        <label for="email">Your Email</label>
+    </div>
+
+    <fieldset class="mb-3">
+        <legend class="col-form-label pt-0">Gender</legend>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+    </fieldset>
+
+    <div class="form-check form-check-inline mb-3">
+        <input class="form-check-input" type="checkbox" id="terms" required>
+        <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
