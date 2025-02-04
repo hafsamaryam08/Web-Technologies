@@ -10,7 +10,7 @@
 
 # Web Technologies Course
 
-## Basic HTML 
+## HTML (HyperText Markup Language)
 * Favicon
 * Forms
 * Headings-paragraphs
@@ -23,7 +23,7 @@
 * Text Formatting
 
 
-## CSS
+## CSS (Cascading Style Sheets)
 * Box Model
 * Flexbox and Grid Layouts
 * Media Queries
@@ -52,7 +52,7 @@
   - Typography
 
 
-## JS
+## JavaScript (JS)
   - Comments
   - Validation
   - Variables
